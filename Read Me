@@ -1,0 +1,20 @@
+# Airflow ETL Pipeline
+
+This project demonstrates a simple ETL pipeline using Apache Airflow. It fetches weather data, transforms it, and loads it into a PostgreSQL database.
+
+## Features
+- **Extract:** Fetch data from a public API.
+- **Transform:** Clean and structure the data.
+- **Load:** Insert data into a PostgreSQL database.
+
+## Setup
+1. Clone the repository.
+2. Install Docker and Docker Compose.
+3. Start services: `docker-compose up`.
+4. Access Airflow at [http://localhost:8080](http://localhost:8080).
+5. Run the `etl_pipeline` DAG.
+
+## Requirements
+- Docker
+- PostgreSQL
+- Apache Airflow
